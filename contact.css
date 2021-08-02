@@ -5,14 +5,26 @@ body{
 .mission{
     background-color:#F5F7B2 ;
     color: black;
-    font-size: 60px;
+    font-size: 40px;
 }
 .vision{
     background-color:#F5F7B2 ;
     color: black;
-    font-size: 60px;
+    font-size: 40px;
 
 }
 .image{
-    width: :100%;
+    width:100%;
+}
+.miss{
+    color: black;
+    font-size: 60px;
+}
+.vis{
+    color: black;
+    font-size: 60px;
+}
+.con{
+    color: black;
+    font-size: 60px;  
 }
