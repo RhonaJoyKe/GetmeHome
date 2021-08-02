@@ -43,26 +43,30 @@
                 <img src="contactus.png"alt="">
             </div>
             <div class="form">
+                <table>
                
                 <form>
-                    
-                   <label for="fname">FULL NAME</label> 
-                   <input type="text" id="fname"required> <br> <br>
-        
-                    <label for="email">EMAIL ADDRESS</label>
-                    <input type="email" id="mail"required><br><br>
-                    <label for="tel">PHONE NUMBER</label>
-                    <input type="tel" id="tel" placeholder="+254 7000000"required><br> <br>
-                    <label for="tarea">SUGGESTIONS/COMMENTS</label>
-                    <textarea id="tarea"name="tarea" maxlength="250">
+                    <tr>
+                  <td> <label for="fname">FULL NAME</label> </td>
+                  <td> <input type="text" id="fname"required></td>  
+                </tr>
+                <tr>
+              <td><label for="email">EMAIL ADDRESS</label></td>  
+                   <td><input type="email" id="mail"required></td> 
+                </tr>
+                    <tr>
+                  <td><label for="tel">PHONE NUMBER</label></td>  
+                   <td><input type="tel" id="tel" placeholder="+254 7000000"required></td> 
+                </tr>
+                     </form>
+            </table>
+            <label for="tarea">SUGGESTIONS/COMMENTS</label>
+                    <textarea id="tarea"name="tarea" maxlength="250"rows="5" cols="10">
 
                     </textarea>
-                    
-
-                </form>
                         </div>
             <div class="send">
-                <input type="submit" id="sub"name="SEND">
+                <input type="submit" id="sub" value ="SEND">
             </div>
 
         </div>
