@@ -37,5 +37,7 @@ input[type=submit]{
     border-radius: 5px;
     background-color: #890596;
     float: center;
+    width:100px;
+    color: white;
 
 }
