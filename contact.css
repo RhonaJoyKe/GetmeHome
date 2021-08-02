@@ -6,11 +6,13 @@ body{
     background-color:#F5F7B2 ;
     color: black;
     font-size: 40px;
+    height:316px;
 }
 .vision{
     background-color:#F5F7B2 ;
     color: black;
     font-size: 40px;
+    height:316px;
 
 }
 .image{
@@ -27,4 +29,12 @@ body{
 .con{
     color: black;
     font-size: 60px;  
+}
+.Contactus{
+    width:100%
+}
+input[type=submit]{
+    border-radius: 10px;
+    background-color: #890596;
+
 }
