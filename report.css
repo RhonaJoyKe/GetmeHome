@@ -9,6 +9,25 @@ table{
     body {
       background-color: lightblue;
     }
+
+    header{
+        display: flex;
+        background-color: #F5F7B2;
+    }
+    .logo{
+        margin: 16px;
+    }
+
+    a{
+        text-decoration: none;
+        background-color: #890596;
+        color: #F5F7B2;
+        width: 136px;
+        height: 40px;
+        border-radius: 90px;
+        padding: 32px;
+        /*make text center div*/
+    }
 }
 
 body{
