@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     width:80%;
     background-color: #1CC5DC;
+ 
+    font-family: 'Roboto', sans-serif;
     margin-left: 10%;
    
    
@@ -9,42 +13,76 @@ html{
     float: center;
 }
    
-  
+header{
+    display: flex;
+    background-color: #F5F7B2;
+}
+.logo{
+    margin: 16px;
+}
+h1{
+   margin-left: 232px;
+    font-size: 64px;
+    padding: 50px 0;
+    color: #890596;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    background-color: #890596;
+    color: #F5F7B2;
+    width: 136px;
+    height: 40px;
+    border-radius: 90px;
+    padding: 32px;
+    /*make text center div*/
+}
 
 
 .mission{
     background-color:#F5F7B2 ;
     color: black;
-    font-size: 20px;
-    height:50px;
-    width:80%;
+    font-size: 40px;
+    height:150px;
+    width:100%;
+  text-align: center;
 }
 .vision{
     background-color:#F5F7B2 ;
     color: black;
-    font-size: 20px;
+    font-size: 40px;
     height:50px;
     width:80%;
+    
 
 }
 img{
-    width:80%;
+    width:50%;
+    margin-left: 50px;
+
 }
 .miss{
     color: black;
-    font-size: 30px;
+    font-size: 60px;
+    text-align: center;
 }
 .vis{
     color: black;
-    font-size: 30px;
+    font-size: 60px;
 }
 .con{
     color: black;
-    font-size: 60px;  
+    font-size: 30px;  
 }
 /*form,*/
 .formsm{
-    width: 75%;
+    width: 60%;
    
     height:25px;
     border-radius: 10px;
@@ -106,20 +144,37 @@ img{
     width:80%;
     height: 15px;
     margin-left: 65px;
-    height:20px;
+    height:20%;
    
    
 }
 
-
-
 input[type=submit]{
     border-radius: 5px;
     background-color: #890596;
-    margin-left: 50%;
-    width:100px;
+    margin-left: 30%;
+    width:200px;
     color: white;
     margin-top: 100px;
+   
 
+}
+footer{
+    height: auto;
+    background-color: #B8B8B8;
+    width: 100%;
+    display: flex;
+    
+}
+.socials{
+    position: relative;
+    left: 400px;
+    padding: 32px;
+    display: flex;
+}
+.tel{
+    position: relative;
+    left: 400px;
+    padding: 16px;
 }
 
