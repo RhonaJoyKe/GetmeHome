@@ -16,6 +16,7 @@ h1{
     font-size: 64px;
     padding: 50px 0;
     color: #890596;
+    font-weight: 800;
 }
 ul{
     display: flex;
@@ -31,7 +32,9 @@ a{
     width: 136px;
     height: 40px;
     border-radius: 90px;
-    padding: 32px;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
     /*make text center div*/
 }
 .background{
@@ -43,10 +46,16 @@ a{
     font-size: 185px;
     color: #1B1F40;
     position: absolute;
-    bottom: 22px;
+    bottom:4px;
     left: 656px;
     font-family: 'DM Serif Display', serif;
+    opacity: 1;
+    animation: fade 3s ease-in-out infinite;
 }
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+  }
 main{
     background: rgb(137,5,150);
     background: linear-gradient(0deg, rgba(137,5,150,0.4) 0%, rgba(28,197,220,0.44) 100%);
@@ -69,6 +78,7 @@ h3{
 }
 h5{
     font-size: large;
+    margin-bottom: 16px;
 }
 .who{
     margin: auto;
@@ -107,4 +117,8 @@ footer{
     position: relative;
     left: 800px;
     padding: 16px;
+}
+a:hover{
+    background-color: #F5F7B2;
+    color: #890596;
 }
