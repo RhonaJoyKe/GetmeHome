@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="report.css">
+
+    <script>
+      function validateForm() {
+          var x = document.forms["report"]["full name", "E-mail", "Nationality","location", "Age","Height", "gender", 
+        "date", "contact", "filename"].value;
+          if (x == "") {
+            alert("form must be filled out");
+            return false;
+          }
+        else{
+            alert("successfully send")
+        }
+        }
+
+        function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display= "none";
+}
+       </script>
+    </head>
+    <body>
+        <div class="info">
+         <p>ACT IMMEDIATELY if you believe that your person is missing<p>
+             <h2>find the form here</h2>
+         </div>
+         <button class="open" onclick="openForm()">Open Form</button>
+    
+         <div class="form-popup" id="myForm">
+    <form class="form" name="report"  onclick="validateForm" onsubmit="return validateForm()" method="post">
+    <table class="table">
+        
+    <tr>
+            <td>Full Name</td>
+            
+        <td>
+        <input class="first" type="text" id="one" name="full name" placeholder="ALBUNUS MUTUKU NYALITA">
+        </td>
+
+        <tr>
+        <td>E-mail</td>
+        <td>
+        <input class="first" id="email" name="email" type="text" placeholder="....@gmail">
+        </td>
+        </tr>
+        
+        <tr>
+        <td>Nationality</td>
+        <td>
+        <input class="first" id="Nationality" name="Nationality" type="text" placeholder="Kenya">
+        </td>
+        </tr>
+        <tr>
+        <td>location</td>
+        <td>
+        <input class="first" id="location" name="location" type="text" placeholder="South B">
+        </td>
+        </tr>
+        <tr>
+        <td>Age</td>
+        <td>
+        <input class="first" id="Age" name="Age" type="text" placeholder="3years">
+        </td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>
+        <input class="first" id="Height" name="Height" type="text" placeholder="7M"/>
+        </td>
+        </tr>
+        <tr>
+        <td>Gender
+        </td>
+        <td>
+        <input lass="first" id="gender" value="Male" type="radio" type="color" name="gender"/>Male
+        <input class="gender"value="Female" type="radio" name="gender"/>Female
+        </td>
+        <tr>
+        <td>Missing Date: (mm/dd/yyyy) </td>
+        <td>
+        <select>
+            <option>JANUARY</option>
+            <option>FEBRUARY</option>
+            <option>MARCH</option>
+            <option>APRIL</option>
+            <option>MAY</option>
+            <option>JUNE</option>
+            <option>JULY</option>
+            <option>AUGUST</option>
+            <option>SEPTEMBER</option>
+            <option>OCTOBER</option>
+            <option>NOVEMBER</option>
+            <option>DECEMBER</option>
+        </select>
+        <input type="number" placeholder="DD" name="date">
+        <input type="text" placeholder="YYYY" name="date">
+    </td>
+        </tr>
+        <tr>
+            <td>contact</td>
+            <td>
+        <input class="first" type="text" name="contact" placeholder="+254719......">
+        </td>
+        </tr>
+       <tr>
+        <td>Other Information</td>
+        <td>
+        <textarea cols="30" rows="10"></textarea>
+        
+        <input type="file"  name="filename">
+        </td>
+        </tr>
+      <tr class="buttons">
+        <td>
+                <input class= "button" onclick="validateForm" type= "submit" value= "SEND">
+        </td>
+    
+    </tr>
+        <tr>
+            <td>
+      <button type="button" class="cancel" onclick="closeForm()">Close</button>
+      <td>
+</tr>
+    </table>
+</form>
+         </div>
+</body>
+</html>

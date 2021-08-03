@@ -1,0 +1,79 @@
+table{
+    background: rgb(207,0,0);
+    background: linear-gradient(0deg, rgba(207,0,0,0.22452731092436973) 0%, rgba(28,197,220,0.87718837535014) 100%);
+    width: 100%;
+    margin: 10px;
+    padding: 70px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+body{
+    width: 100%;
+    background-color:#F5F7B2;
+
+}
+.button{
+text-align: left;
+}
+.one{
+    display: flex;
+}
+form{
+    width: 60%;
+    text-align: center;
+    margin-left: 300px;
+}
+.first{
+    width: 100%;
+    
+}
+
+td{
+  padding: 12px;
+  font-size: 20px;
+}
+.form-popup {
+    display: none;
+    position: relative;
+}
+.button{
+    
+    background-color: purple;
+    margin-left: 500px;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 80px;
+    text-align: center;
+}
+               /*styling "close" button */
+.cancel{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    border-radius: 100px;
+}
+              /*styling "open" button */
+
+.info{
+    width: 10%;
+    margin-left: 200px;
+    background-color: rosybrown;
+}
+/*styling "open" button */
+.open{
+margin-left: 1200px;
+margin-top: 50px;
+position: absolute;
+background-color: purple;
+font-size: 20px;
+border-radius: 100px;
+
+}
