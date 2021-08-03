@@ -1,43 +1,125 @@
 body{
-    width:100%;
+    width:80%;
     background-color: #1CC5DC;
+    margin-left: 10%;
+   
+   
 }
+html{
+    float: center;
+}
+   
+  
+
+
 .mission{
     background-color:#F5F7B2 ;
     color: black;
-    font-size: 40px;
-    height:100px;
+    font-size: 20px;
+    height:50px;
+    width:80%;
 }
 .vision{
     background-color:#F5F7B2 ;
     color: black;
-    font-size: 40px;
-    height:100px;
+    font-size: 20px;
+    height:50px;
+    width:80%;
 
 }
 img{
-    width:100%;
+    width:80%;
 }
 .miss{
     color: black;
-    font-size: 60px;
+    font-size: 30px;
 }
 .vis{
     color: black;
-    font-size: 60px;
+    font-size: 30px;
 }
 .con{
     color: black;
     font-size: 60px;  
 }
-.Contactus{
-    width:100%
+/*form,*/
+.formsm{
+    width: 75%;
+   
+    height:25px;
+    border-radius: 10px;
+   
 }
+.Fullname{
+    display: flex;
+    
+   
+}
+    
+
+.t{
+    width:80%;
+    height: 15px;
+    margin-left: 100px;
+    height:0px;
+    border-radius: 20px;
+    background-color: white;
+   
+   
+}
+.Email{
+    display: flex;
+   
+}
+    
+
+.e{
+    width:80%;
+    height: 15px;
+    margin-left: 65px;
+    height:20px;
+   
+   
+}
+
+.phonenumber{
+    display: flex;
+   
+}
+    
+
+.p{
+    width:80%;
+    height: 15px;
+    margin-left: 65px;
+    height:20px;
+   
+   
+}
+.sugg{
+    display: block;
+   
+}
+    
+
+.ta{
+    width:80%;
+    height: 15px;
+    margin-left: 65px;
+    height:20px;
+   
+   
+}
+
+
+
 input[type=submit]{
     border-radius: 5px;
     background-color: #890596;
-    float: center;
+    margin-left: 50%;
     width:100px;
     color: white;
+    margin-top: 100px;
 
 }
+

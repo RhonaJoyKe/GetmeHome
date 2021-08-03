@@ -36,46 +36,48 @@
             <p >CONTACT US</p> 
                 
         </div>
-        <div class=Contactus>
-            
+      
             <div class="image">
 
                 <img src="contactus.png"alt="">
             </div>
+            <br><br>
             <div class="form">
-                <table>
-               
                 <form>
-                    <tr>
-                  <td> <label for="fname"><b>FULL NAME</b></label> </td>
-                  <td> <input type="text" id="fname"required></td>  
-                </tr>
-                <tr>
-              <td><label for="email"><b>
-                  EMAIL ADDRESS
-              </b></label></td>  
-                   <td><input type="email" id="mail"required></td> 
-                </tr>
-                    <tr>
-                  <td><label for="tel"><b>PHONE NUMBER</b></label></td>  
-                   <td><input type="tel" id="tel" placeholder="+254 7000000"required></td> 
-                </tr>
-                     </form>
-            </table>
-            <label for="tarea">SUGGESTIONS/COMMENTS</label>
-                    <textarea id="tarea"name="tarea" maxlength="250"rows="5" cols="10">
+                    <div class="Fullname">
+                 <div class="l" ><label for="fname"><b>FULL NAME</b></label></div>
+                 <div class="t"> <input type="text" class="formsm" id="fname"required></div> 
+                    </div>
+                   <br><br>
+                    <div class="Email ">
+                        <div class="em" ><label for="email"><b>EMAIL ADDRESS</b></label></div>
+                        <div class="e"> <input type="email" class="formsm"id="mail"required></div> 
+                           </div>
+                           <br><br>
 
-                    </textarea>
-                        </div>
+             <div class="phonenumber">
+                  <div class="ph"><label for="tel"><b>PHONE NUMBER</b></label></div>
+                <div class="p">  <input type="tel"class="formsm" id="tel" placeholder="+254 7000000"required></div> 
+        
+                     </div>
+                     <br><br>
+                 <div class="sugg">
+                        <div class="su"><label for="tarea"><b>SUGGESTIONS/COMMENTS</b></label></div>
+                      <div class="t">  <input type="textarea"class="formsm" id="tarea" rows="10"></div> 
+              
+                           </div>
+            
+           <!--<label for="tarea"></label>
+                <textarea id="tarea"class="formsm"name="tarea" rows="30" cols="20"></textarea>-->
+ 
             <div class="send">
                 <input type="submit" id="sub" value ="SEND">
             </div>
-
+        </form>
         </div>
 <div class="footer">
 
 </div>
-    
 
 
     </body>
