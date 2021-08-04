@@ -30,11 +30,13 @@ function closeForm() {
        </script>
     </head>
     <body>
+        <div>
         <header>
             <div class="logo">
                 <img src="./Assets/gmhlogo.png" alt="get me home logo" height="120">
             </div>
             <h1>GET ME HOME</h1>
+            
         </header>
         <nav>
             <ul>
@@ -51,22 +53,24 @@ function closeForm() {
                     <a href="#">ABOUT US</a>
                 </li>
             </ul>
-            <img class="background" src="./assets/missing_identity_4x.png" alt="">
-            <p class="missing">s</p>
         </nav>
+        </div>
+        <br>
+
+       
         <div class="info">
-         <p>ACT IMMEDIATELY if you believe that your person is missing<p>
-             <h2>find the form here</h2>
+         <p>ACT IMMEDIATELY if you believe that your person is missing.
+             <span class="span">GET ME HOME</span> we are here for you.<p>
+             <h4>find the form here</h4>
+         <button class="open" onclick="openForm()">Report here</button>
          </div>
-         <button class="open" onclick="openForm()">Open Form</button>
-    
          <div class="form-popup" id="myForm">
     <form class="form" name="report"  onclick="validateForm" onsubmit="return validateForm()" method="post">
     <table class="table">
-        
+
     <tr>
             <td>Full Name</td>
-            
+
         <td>
         <input class="first" type="text" id="one" name="full name" placeholder="ALBUNUS MUTUKU NYALITA">
         </td>
@@ -77,7 +81,7 @@ function closeForm() {
         <input class="first" id="email" name="email" type="text" placeholder="....@gmail">
         </td>
         </tr>
-        
+
         <tr>
         <td>Nationality</td>
         <td>
@@ -161,13 +165,13 @@ function closeForm() {
          <footer>
             <div>
                 <div class="socials">
-                    <img src="./assets/download2.png" alt="" height="40">
-                    <img src="./assets/download1.png" alt="" height="40">
-                    <img src="./assets/download 5.png" alt="" height="40">
-                    <img src="./assets/download 4.png" alt="" height="40">
-                    <img src="./assets/download 3.png" alt="" height="40">
+                    <img src="./Assets/download2.png" alt="" height="40">
+                    <img src="./Assets/download1.png" alt="" height="40">
+                    <img src="./Assets/download 5.png" alt="" height="40">
+                    <img src="./Assets/download 4.png" alt="" height="40">
+                    <img src="./Assets/download 3.png" alt="" height="40">
                 </div>
-                <p>Getmehome org c 2021</p>
+                <p>Getmehome org &copy 2021</p>
             </div>
             <div class="tel">
                 <h2>TEL :</h2>
@@ -176,6 +180,6 @@ function closeForm() {
                 <p>(+254) 725059416</p>
                 <p>(+254) 700276735</p>
             </div>
-        </footer
+        </footer>
 </body>
 </html>
