@@ -3,7 +3,6 @@
 body{
     width:80%;
     background-color: #1CC5DC;
- 
     font-family: 'Roboto', sans-serif;
     margin-left: 10%;
    
@@ -52,18 +51,20 @@ a{
     height:150px;
     width:100%;
   text-align: center;
+  margin-bottom: 20px;;
 }
 .vision{
     background-color:#F5F7B2 ;
     color: black;
     font-size: 40px;
-    height:50px;
-    width:80%;
+    height:150px;
+    width:100%;
+  text-align: center;
     
 
 }
 img{
-    width:50%;
+    width:80%;
     margin-left: 50px;
 
 }
@@ -75,10 +76,12 @@ img{
 .vis{
     color: black;
     font-size: 60px;
+    text-align: center;
 }
 .con{
     color: black;
-    font-size: 30px;  
+    font-size: 60px;  
+    text-align: center;
 }
 /*form,*/
 .formsm{
@@ -86,7 +89,7 @@ img{
    
     height:25px;
     border-radius: 10px;
-   
+   text-align: center;
 }
 .Fullname{
     display: flex;
@@ -136,6 +139,7 @@ img{
 }
 .sugg{
     display: block;
+ 
    
 }
     
@@ -167,13 +171,17 @@ footer{
     
 }
 .socials{
-    position: relative;
+   
     left: 400px;
-    padding: 32px;
+    border: 2px solid black;
+    padding:32px;
     display: flex;
+    top: 1200px;
+    
+
 }
 .tel{
-    position: relative;
+   
     left: 400px;
     padding: 16px;
 }
