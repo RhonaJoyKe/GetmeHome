@@ -44,12 +44,16 @@ a{
     object-fit: cover;
     height: 100vh;
 }
+nav{
+    overflow: hidden;
+}
 #missing{
-    font-size: 185px;
+    font-size: 14vw;
+    width: min-content;
     color: #1B1F40;
     position: absolute;
-    bottom:4px;
-    left: 656px;
+    top: 60%;
+    left: 50vw;
     font-family: 'DM Serif Display', serif;
     opacity: 1;
     animation: fade 3s ease-in-out infinite;
