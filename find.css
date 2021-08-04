@@ -38,13 +38,11 @@ form {
   align-items: center;
   float: right;
   position: relative;
-  z-index: 2;
   }
-
-
+  
 .grid-container {
   height: 1150px;
-
+  margin-left: 200px;
 }
 .row1 {
   display: flex;
