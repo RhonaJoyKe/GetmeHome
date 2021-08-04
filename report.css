@@ -30,11 +30,11 @@ a{
     background-color: #890596;
     color: #F5F7B2;
     width: 136px;
-    height: 30px;
-    border-radius: 80px;
+    height: 40px;
+    border-radius: 60px 60px 60px 60px ;
     display: block;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px 0;
     /*make text center div*/
 }
 table{
@@ -85,7 +85,7 @@ td{
     position: absolute;
     width: 150px;
     height: 30px;
-    border-radius: 80px;
+    border-radius: 80px 0px 80px 0px;
     text-align: center;
     color: #F5F7B2;
 }
@@ -95,10 +95,10 @@ td{
 position: absolute;
 background-color: #1CC5DC;
 font-size: 30px;
-border-radius: 100px;
+border-radius: 100px 0px 100px 0px;
 color: #F5F7B2;
-width: 150px;
-height: 70px;
+width: 250px;
+height: 100px;
 
 }
 .hover :hover{
