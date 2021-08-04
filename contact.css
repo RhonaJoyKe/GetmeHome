@@ -64,7 +64,7 @@ a{
 
 }
 img{
-    width:80%;
+    width:70%;
     margin-left: 50px;
 
 }
@@ -90,9 +90,11 @@ img{
     height:25px;
     border-radius: 10px;
    text-align: center;
+  
 }
 .Fullname{
     display: flex;
+    margin-left: 100px;
     
    
 }
@@ -110,6 +112,7 @@ img{
 }
 .Email{
     display: flex;
+    margin-left: 100px;
    
 }
     
@@ -125,6 +128,7 @@ img{
 
 .phonenumber{
     display: flex;
+    margin-left: 100px;
    
 }
     
@@ -139,8 +143,14 @@ img{
 }
 .sugg{
     display: block;
+    margin-left: 100px;
  
    
+}
+#tarea{
+    width: 50%;
+    margin-left: 200px;
+    height:150px;
 }
     
 
@@ -156,33 +166,35 @@ img{
 input[type=submit]{
     border-radius: 5px;
     background-color: #890596;
-    margin-left: 30%;
+    margin-left: 40%;
     width:200px;
     color: white;
-    margin-top: 100px;
+    margin-top: 20px;
+    height:30px;
    
 
 }
 footer{
-    height: auto;
     background-color: #B8B8B8;
     width: 100%;
     display: flex;
+    margin-top: 30px;;
     
 }
 .socials{
    
     left: 400px;
-    border: 2px solid black;
+    
     padding:32px;
     display: flex;
-    top: 1200px;
+    margin-top: 200px;
     
 
 }
 .tel{
    
-    left: 400px;
+   margin-left: 300px;
     padding: 16px;
+
 }
 
