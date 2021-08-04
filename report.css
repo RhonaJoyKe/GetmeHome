@@ -149,7 +149,7 @@ footer{
     padding: 32px;
 }
 .tel{
-    position: relative;
+    position: absolute;
     left: 500px;
     padding: 16px;
 }
