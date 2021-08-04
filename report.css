@@ -104,6 +104,7 @@ height: 70px;
 }
 .open :hover{
     background-color: #890596;
+    color: aqua;
 }
 
                /*styling "close" button */
