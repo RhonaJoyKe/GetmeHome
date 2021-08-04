@@ -178,21 +178,21 @@ footer{
     background-color: #B8B8B8;
     width: 100%;
     display: flex;
-    margin-top: 30px;;
+    margin-top: 30px;
     
 }
 .socials{
    
     left: 400px;
-    
-    padding:32px;
     display: flex;
-    margin-top: 200px;
-    
-
+    margin-top: 160px;
+    margin-left: 50px;
 }
+    #socialstxt{
+        margin-top: 230px;
+    }
+
 .tel{
-   
    margin-left: 300px;
     padding: 16px;
 
