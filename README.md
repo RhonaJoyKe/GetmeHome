@@ -19,6 +19,8 @@ The website lacks a storage site but plans to implement a firebase storage site 
 
 ## Technologies Used
 The technologies used include HTML CSS and javascript.
+## Design of our project
+Link to view our project design [link](https://www.figma.com/file/ypAKtAVNzGUpNYbbq0jrzG/Untitled?node-id=0%3A1)
 
 ## Support and contact details
 📫 How to reach me **rhonajoy.koome@student.moringaschool.com**
