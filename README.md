@@ -1,10 +1,11 @@
 # GET ME HOME
 
 #### This is a website that intends to give a platform to help people who have lost their loved ones trace them back faster, 4th Agust 2021. version (1.0)
-#### Developed By [Albunus](https://github.com/albunus)
-                  [Rhonajoy](https://github.com/RhonaJoyKe)
-                  [willardsigei](https://github.com/willardsigei)
-                  [tevin-otieno](https://github.com/tevin-otieno)
+#### Developed By 
+[Albunus](https://github.com/albunus)
+[Rhonajoy](https://github.com/RhonaJoyKe)
+[willardsigei](https://github.com/willardsigei)
+[tevin-otieno](https://github.com/tevin-otieno)
 ## Description
  This website is supposed to help find lost individuals.
  
