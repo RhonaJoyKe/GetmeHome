@@ -25,7 +25,8 @@ a{
   height: 40px;
   border-radius: 90px;
   padding: 32px;
-  /*make text center div*/
+  z-index: 2;
+  position: relative;
 }
 form {
   background-color: #92239c;
