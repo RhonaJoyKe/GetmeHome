@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     display: flex;
@@ -42,7 +44,7 @@ a{
     object-fit: cover;
     height: 100vh;
 }
-.missing{
+#missing{
     font-size: 185px;
     color: #1B1F40;
     position: absolute;
@@ -82,13 +84,14 @@ h5{
 }
 .who{
     margin: auto;
-    background-color: #CF0000 ;
+    background-color: rgba(255, 0, 0, 0.6);
     width: 80%;
     height: 100vh;
     box-shadow: inset 0px 0px 40px 40px #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: grey;
 }
 h6{
     font-size: xx-large;
