@@ -8,9 +8,13 @@
 [tevin-otieno](https://github.com/tevin-otieno)
 ## Description
  This website is supposed to help find lost individuals.
+ Simply put the website gives a platform for people who have lost loved ones or people close to them be able to post them using pictures and descriptions  so that incase anyone finds them they can report them thus helping finding them faster.
  
 ## Setup/Installation Requirements
-Just click the [link](https://rhonajoyke.github.io/GetmeHome)
+Git
+Web-browser or your choice
+Github
+Live link to view the project [link](https://rhonajoyke.github.io/GetmeHome)
 
 ## Known Bugs
 The website lacks a storage site but plans to implement a firebase storage site are underway.
