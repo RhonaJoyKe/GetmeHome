@@ -149,8 +149,8 @@ footer{
     padding: 32px;
 }
 .tel{
-    position: absolute;
-    left: 500px;
+    position: relative;
+    left: 400px;
     padding: 16px;
 }
 a:hover{
