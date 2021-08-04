@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header{
+    display: flex;
+    background-color: #F5F7B2;
+
+}
+.logo{
+    margin: 20px;
+    position: absolute;
+    margin-left: 150px;
+}
+h1{
+    margin-left: 232px;
+    font-size: 64px;
+    padding: 20px 0;
+    color: #890596;
+    font-weight: 800;
+    margin-left: 300px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    background-color: #890596;
+    color: #F5F7B2;
+    width: 136px;
+    height: 40px;
+    border-radius: 60px 60px 60px 60px ;
+    display: block;
+    text-align: center;
+    padding-top: 10px 0;
+    /*make text center div*/
+}
+table{
+    background: rgb(207,0,0);
+    background: linear-gradient(0deg, rgba(207,0,0,0.22452731092436973) 0%, rgba(28,197,220,0.87718837535014) 100%);
+    margin: 10px;
+    padding: 70px;
+}
+
+body{
+    width: 70%;
+    margin-left: 230px;
+    margin-right: 100px;
+    background: rgb(248,219,219);
+background: linear-gradient(0deg, rgba(248,219,219,1) 0%, rgba(248,219,219,0) 100%);
+font-family: 'Roboto', sans-serif;
+    
+
+}
+.button{
+text-align: left;
+}
+.one{
+    display: flex;
+}
+form{
+    width: 100%;
+    text-align: center;
+    margin-left: 80px;
+}
+.first{
+    width: 100%;
+    
+}
+
+td{
+  padding: 12px;
+  font-size: 20px;
+}
+.form-popup {
+    display: none;
+    position: relative;
+}
+.button{
+    
+    background-color: purple;
+    margin-left: 500px;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    border-radius: 80px 0px 80px 0px;
+    text-align: center;
+    color: #F5F7B2;
+}
+            /*styling "open" button */
+.open{
+    margin-left: 150px;
+position: absolute;
+background-color: #1CC5DC;
+font-size: 30px;
+border-radius: 100px 0px 100px 0px;
+color: #F5F7B2;
+width: 250px;
+height: 100px;
+
+}
+.hover :hover{
+    background-color: #F5F7B2;
+    color: #890596;
+    
+}
+
+               /*styling "close" button */
+.cancel{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border-radius: 0px 80px 0px 80px;
+    font-size: 20px;
+}
+.cancel :hover{
+    background-color: #890596;
+}
+
+.info{
+    width: 15%;
+    margin-left: 200px;
+    border-radius: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+   
+}
+.span{
+    color: #890596;
+    font-size: 24px;
+}
+
+footer{
+    height: auto;
+    background-color: #B8B8B8;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    
+}
+.socials{
+    position: relative;
+    left: 400px;
+    padding: 32px;
+}
+.tel{
+    position: relative;
+    left: 500px;
+    padding: 16px;
+}
+a:hover{
+    background-color: #F5F7B2;
+    color: #890596;
+}
+

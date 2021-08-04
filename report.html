@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="report.css">
+
+    <script>
+      function validateForm() {
+          var x = document.forms["report"]["full name", "E-mail", "Nationality","location", "Age","Height", "gender", 
+        "date", "contact", "filename"].value;
+          if (x == "") {
+            alert("form must be filled out");
+            return false;
+          }
+        else{
+            alert("successfully send")
+        }
+        }
+
+        function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display= "none";
+}
+       </script>
+    </head>
+    <body>
+        <div>
+        <header>
+            <div class="logo">
+                <img src="./assets/gmhlogo.png" alt="get me home logo" height="120">
+            </div>
+            <h1>GET ME HOME</h1>
+            
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="find.html">FIND</a>
+                </li>
+                <li>
+                    <a href="report.html">REPORT</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">ABOUT US</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        <br>
+
+       
+        <div class="info">
+         <p>ACT IMMEDIATELY if you believe that your person is missing.
+             <span class="span">GET ME HOME</span> we are here for you.<p>
+             <h4>find the form here</h4>
+        <div class="hover">
+         <button class="open" onclick="openForm()">Report here</button>
+         </div>
+             
+         </div>
+        </br>
+         <div class="form-popup" id="myForm">
+    <form class="form" name="report"  onclick="validateForm" onsubmit="return validateForm()" method="post">
+    <table class="table">
+
+    <tr>
+            <td>Full Name</td>
+
+        <td>
+        <input class="first" type="text" id="one" name="full name" placeholder="ALBUNUS MUTUKU NYALITA">
+        </td>
+
+        <tr>
+        <td>E-mail</td>
+        <td>
+        <input class="first" id="email" name="email" type="text" placeholder="....@gmail">
+        </td>
+        </tr>
+
+        <tr>
+        <td>Nationality</td>
+        <td>
+        <input class="first" id="Nationality" name="Nationality" type="text" placeholder="Kenya">
+        </td>
+        </tr>
+        <tr>
+        <td>location</td>
+        <td>
+        <input class="first" id="location" name="location" type="text" placeholder="South B">
+        </td>
+        </tr>
+        <tr>
+        <td>Age</td>
+        <td>
+        <input class="first" id="Age" name="Age" type="text" placeholder="3years">
+        </td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>
+        <input class="first" id="Height" name="Height" type="text" placeholder="7M"/>
+        </td>
+        </tr>
+        <tr>
+        <td>Gender
+        </td>
+        <td>
+        <input lass="first" id="gender" value="Male" type="radio" type="color" name="gender"/>Male
+        <input class="gender"value="Female" type="radio" name="gender"/>Female
+        </td>
+        <tr>
+        <td>Missing Date: (mm/dd/yyyy) </td>
+        <td>
+        <select>
+            <option>JANUARY</option>
+            <option>FEBRUARY</option>
+            <option>MARCH</option>
+            <option>APRIL</option>
+            <option>MAY</option>
+            <option>JUNE</option>
+            <option>JULY</option>
+            <option>AUGUST</option>
+            <option>SEPTEMBER</option>
+            <option>OCTOBER</option>
+            <option>NOVEMBER</option>
+            <option>DECEMBER</option>
+        </select>
+        <input type="number" placeholder="DD" name="date">
+        <input type="text" placeholder="YYYY" name="date">
+    </td>
+        </tr>
+        <tr>
+            <td>contact</td>
+            <td>
+        <input class="first" type="text" name="contact" placeholder="+254719......">
+        </td>
+        </tr>
+       <tr>
+        <td>Other Information</td>
+        <td>
+        <textarea cols="30" rows="10"></textarea>
+        
+        <input type="file"  name="filename">
+        </td>
+        </tr>
+      <tr class="buttons">
+        <td>
+                <input class= "button" onclick="validateForm" type= "submit" value= "SEND">
+        </td>
+    
+    </tr>
+        <tr>
+            <td>
+                <div class="hover">
+      <button type="button" class="cancel" onclick="closeForm()">Close</button>
+      </div>
+      <td>
+</tr>
+
+    </table>
+</form>
+         </div>
+         <footer>
+            <div>
+                <div class="socials">
+                    <img src="./assets/download2.png" alt="" height="40">
+                    <img src="./assets/download1.png" alt="" height="40">
+                    <img src="./assets/download 5.png" alt="" height="40">
+                    <img src="./assets/download 4.png" alt="" height="40">
+                    <img src="./assets/download 3.png" alt="" height="40">
+                </div>
+                <p>Getmehome org &copy 2021</p>
+            </div>
+            <div class="tel">
+                <h2>TEL :</h2>
+                <p>(+254) 706555078</p>
+                <p>(+254) 719315899</p>
+                <p>(+254) 725059416</p>
+                <p>(+254) 700276735</p>
+            </div>
+        </footer>
+</body>
+</html>
