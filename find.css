@@ -1,0 +1,98 @@
+header{
+  display: flex;
+  background-color: #F5F7B2;
+}
+.logo{
+  margin: 16px;
+}
+h1{
+  margin-left: 500px;
+  font-size: 75px;
+  padding: 50px 0;
+  color: #890596;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  background-color: #890596;
+  color: #F5F7B2;
+  height: 40px;
+  border-radius: 90px;
+  padding: 32px;
+  /*make text center div*/
+}
+form {
+  background-color: #92239c;
+  width: 300px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: right;
+  position: relative;
+  }
+
+body{
+  padding: 0px;
+  margin: 10px;
+  font-size: 20px;
+}
+.grid-container {
+  height: 1000px;
+  margin-left: 400px;
+}
+.row1 {
+  display: flex;
+  position: relative;
+  height: 300px;
+}
+.grid-item1 {
+  padding-right: 20px; 
+}
+p{
+display: inline-flex;
+padding-right: 0px;
+text-align: justify;
+position: relative;
+}
+.grid-item2 {
+  position: relative;
+  padding-right: 20px; 
+  left: 20px;
+}
+.grid-item3 {
+  position: relative;
+  padding-right: 20px; 
+  left: 40px;
+}
+.row2 {
+  display: flex;
+  position: relative;
+  top: 500px;
+  right: 950px;
+}
+
+footer {
+  height: auto;
+  background-color: #B8B8B8;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.socials{
+  position: relative;
+  left: 500px;
+  padding: 32px;
+}
+.tel{
+  position: relative;
+  left: 800px;
+  padding: 16px;
+}
