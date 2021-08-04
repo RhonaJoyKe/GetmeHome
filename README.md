@@ -11,9 +11,7 @@
  Simply put the website gives a platform for people who have lost loved ones or people close to them be able to post them using pictures and descriptions  so that incase anyone finds them they can report them thus helping finding them faster.
  
 ## Setup/Installation Requirements
-Git
-Web-browser or your choice
-Github
+
 Live link to view the project [link](https://rhonajoyke.github.io/GetmeHome)
 
 ## Known Bugs
